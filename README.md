@@ -5,8 +5,7 @@ Memory-Gated Recurrent Networks (AAAI 2021)
 Python == 3.6. Pytorch == 1.5. By default, the codes and the pre-trained models run on GPUs. 
 
 ### Simulation Experiments
-Simulated data is stored in *simulation_data/data_generation_matlab/simulation_data* in the CSV format. The first two columns in each csv file contain the observations of $y_1$ and $y_2$. The next seven columns are the parameters of $y_1$. The last seven columns are the parameters of $y_2$. Theoretical minimum MSEs are saved in *simulation\_data/data\_generation\_matlab/simulation\_data\_mse.csv*. The Matlab code used to generate the simulated data and the theoretical MSEs can be found in 
- *simulation\_data/data\_generation\_matlab/simulation\_ar\_main.m*. 
+Please use the Matlab code *simulation\_data/data\_generation\_matlab/simulation\_ar\_main.m* to generate the simulated data and the theoretical MSEs. (File sizes are greater than 25MB so we could not upload them. We set a random seed to make sure the experiments are reproducible.). The first two columns in each csv file contain the observations of $y_1$ and $y_2$. The next seven columns are the parameters of $y_1$. The last seven columns are the parameters of $y_2$. Theoretical minimum MSEs are saved in *simulation\_data/data\_generation\_matlab/simulation\_data\_mse.csv*. 
  
 To train and evaluate new models, please refer to *NN\_main\_simulation\_regression.py*. To validate pre-trained models, please refer to *validation\_regression.py*. To reproduce table 1 and figure 2 in the paper, please refer to *simulation\_results\_summary.ipynb*. 
 
