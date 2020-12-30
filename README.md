@@ -1,7 +1,7 @@
 # mGRN
 Memory-Gated Recurrent Networks (AAAI 2021)
 
-Appendices: aaai_supplement.pdf
+arXiv: [https://arxiv.org/abs/2012.13121](https://arxiv.org/abs/2012.13121)
 
 ### Requirements
 Python == 3.6. Pytorch == 1.5. By default, the codes and the pre-trained models run on GPUs. 
